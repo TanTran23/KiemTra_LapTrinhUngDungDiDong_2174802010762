@@ -28,3 +28,14 @@
 ## Câu 2: Điều hướng Activity và Intent
 
 ![Profile](screenshots/cau2_profile_intent.png)
+
+
+## Câu 3: ListView và ArrayAdapter
+
+Danh sách môn học hiển thị trên ListView:
+
+![ListView](screenshots/cau3_listview_display.png)
+
+Toast hiển thị khi bấm chọn một item:
+
+![Toast](screenshots/cau3_item_click_toast.png)
