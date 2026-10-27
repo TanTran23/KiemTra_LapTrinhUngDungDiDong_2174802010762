@@ -2,6 +2,7 @@ package com.example.kiemtra_laptrinhungdungdidong_2174802010762
 
 
 import android.graphics.Color
+import android.content.Intent
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Button
@@ -51,6 +52,9 @@ class LoginActivity : AppCompatActivity() {
             else -> {
                 tvStatus.setTextColor(Color.parseColor("#2E7D32"))
                 tvStatus.text = "Xác thực thành công!"
+                val intent = Intent(this, ProfileActivity::class.java)
+                intent.putExtra("EXTRA_EMAIL", email)
+                startActivity(intent)
             }
         }
     }

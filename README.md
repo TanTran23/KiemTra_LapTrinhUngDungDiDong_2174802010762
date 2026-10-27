@@ -23,3 +23,8 @@
 ### 2. Kiểm tra đăng nhập thành công
 
 ![Validation Success](screenshots/cau1_validation_success.png)
+
+
+## Câu 2: Điều hướng Activity và Intent
+
+![Profile](screenshots/cau2_profile_intent.png)
